@@ -240,7 +240,3 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   };
 
 }
-
-module.exports.run = function({ api, event, client, __GLOBAL }) { }
-
-(Priyansh)
