@@ -118,6 +118,27 @@ function roleTextToString(roleText) {
     default:
       return "Unknown role";
   }
+                                                   }  │ 🔯 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: ${configCommand.version || "1.0"}
+  │ ♻𝗥𝗼𝗹𝗲: ${roleText}
+  ╰────────────⊙`;
+
+        await message.reply(response);
+      }
+    }
+  },
+};
+
+function roleTextToString(roleText) {
+  switch (roleText) {
+    case 0:
+      return "0 (All users)";
+    case 1:
+      return "1 (Group administrators)";
+    case 2:
+      return "2 (Admin bot)";
+    default:
+      return "Unknown role";
+  }
 } customLang = require(pathCustomLang);
 
  const { threadID } = event;
