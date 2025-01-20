@@ -1,6 +1,5 @@
 <img src="https://i.imgur.com/BtdKJaL.jpeg" alt="banner">
-<h1 align="center"><img src="https://i.imgur.com/3F8GRUx.jpeg" width="22px"> ArYAN BOT
-Rakib</h1
+<h1 align="center"><img src="https://i.imgur.com/3F8GRUx.jpeg" width="22px"> ArYAN & RAKIB </h1
 
 
 ## C3C FBstate
@@ -36,3 +35,6 @@ Enjoy the running render 🙂❤️🦆
 Goatbot running from youtube video
 [Vex_ArYAN](https://youtu.be/FXjDP5VWjg4?si=02AY7shzbcMqDda2).
 - 
+MADE BY ARYAN & RAKIB
+Credit gose to ArYan
+helped by Rakib
