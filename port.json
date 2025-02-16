@@ -1,25 +1,3 @@
-const fs = require('fs');
-
-// Read port from port.json
-fs.readFile('port.json', 'utf8', (err, data) => {
-  if (err) {
-    console.error('Error reading the port configuration:', err);
-    return;
-  }
-
-  const config = JSON.parse(data);
-  const port = config.port;
-
-  // Use the port in your application
-  console.log(`Server is running on port: ${port}`);
-  // Example: start an HTTP server on the given port
-  const http = require('http');
-  const server = http.createServer((req, res) => {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello, World!\n');
-  });
-
-  server.listen(port, () => {
-    console.log(`Server started on port ${port}`);
-  });
-});
+{
+  "port": 3000
+}
